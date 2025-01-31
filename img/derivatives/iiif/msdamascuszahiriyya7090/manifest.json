@@ -1,12 +1,9 @@
 ---
-added: 2025-01-31 10&#58;43&#58;01.564549
-thumbnail: https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/106,/0/default.jpg
-title: MS-Damascus-Zahiriyya-7090
-user: jathiele
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
   "type": "Manifest",
   "label": {
     "ar": [
@@ -38,7 +35,7 @@ user: jathiele
   "viewingDirection": "right-to-left",
   "items": [
     {
-      "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
       "type": "Canvas",
       "label": {
         "ar": [
@@ -47,7 +44,7 @@ user: jathiele
       },
       "thumbnail": [
         {
-          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/106,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/106,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -55,30 +52,36 @@ user: jathiele
       "width": 3400,
       "items": [
         {
-          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2400,
                 "width": 3400,
                 "service": [
                   {
-                    "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/msdamascuszahiriyya7090-msdamascuszahiriyya7090-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }

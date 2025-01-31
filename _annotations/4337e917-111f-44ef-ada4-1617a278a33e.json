@@ -1,0 +1,37 @@
+---
+canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "MarginTextZone",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-01-31T10:52:56.585Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=244.36618041992188,143.6619415283203,456.3380126953125,494.36619567871094"
+        }
+    },
+    "id": "4337e917-111f-44ef-ada4-1617a278a33e.json",
+    "motivation": "commenting"
+}

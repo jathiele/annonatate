@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090//fols1b2a-0",
+  "height": 2400,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 300,
+      "width": 425
+    },
+    {
+      "height": 150,
+      "width": 213
+    },
+    {
+      "height": 75,
+      "width": 106
+    },
+    {
+      "height": 38,
+      "width": 53
+    },
+    {
+      "height": 19,
+      "width": 27
+    },
+    {
+      "height": 9,
+      "width": 13
+    },
+    {
+      "height": 5,
+      "width": 7
+    },
+    {
+      "height": 2,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 512
+    }
+  ],
+  "width": 3400
+}

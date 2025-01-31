@@ -1,0 +1,86 @@
+---
+added: 2025-01-31 10&#58;43&#58;01.564549
+thumbnail: https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/106,/0/default.jpg
+title: MS-Damascus-Zahiriyya-7090
+user: jathiele
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "ar": [
+      "MS-Damascus-Zahiriyya-7090"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "ar": [
+          "rights"
+        ]
+      },
+      "value": {
+        "ar": [
+          "https&#58;//creativecommons.org/licenses/by-nc-sa/4.0/"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "ar": [
+      "Paratexts in the copy of Iʿjāz al-Qurʾān preserved in MS Damscus, Ẓāhiriyya library, no. 7090, for. 2a"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "right-to-left",
+  "items": [
+    {
+      "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
+      "type": "Canvas",
+      "label": {
+        "ar": [
+          "fols-1b-2a"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/106,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2400,
+      "width": 3400,
+      "items": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2400,
+                "width": 3400,
+                "service": [
+                  {
+                    "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/fols1b2a-0",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,14 +7,13 @@ order: 3
     "body": [
         {
             "type": "TextualBody",
-            "value": "MarginTextZone#1",
             "purpose": "tagging",
+            "value": "MarginTextZone",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-01-31T11:06:53.922Z",
-            "modified": "2025-01-31T11:07:09.237Z"
+            "created": "2025-02-01T12:20:23.029Z"
         }
     ],
     "id": "4337e917-111f-44ef-ada4-1617a278a33e.json",

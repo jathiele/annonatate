@@ -1,0 +1,36 @@
+---
+canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1"
+order: 9
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "DamageZone:soaked",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-01T12:27:41.159Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"495.6571960449219\" cy=\"1644.3660888671875\" rx=\"147.88729858398438\" ry=\"100.93896484375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2b3575e3-fa78-40cd-ae9d-069cae0b71ab.json",
+    "motivation": "commenting"
+}

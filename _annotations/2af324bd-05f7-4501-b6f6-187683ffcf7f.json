@@ -3,20 +3,40 @@ canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascusza
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "MarginTextZone",
-            "purpose": "tagging",
+            "created": "2025-01-31T10:56:51.467Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-01-31T10:56:51.467Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "MarginTextZone"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0641\u064a\u0644\u0645 \u0631\u0642\u0645 \u0664\u0669\n\u062a\u0635\u0648\u064a\u0631 \u0645\u062e\u0637\u0648\u0637 \u0631\u0642\u0645 \u0667\u0660\u0669\u0660",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-01T12:21:28.186Z",
+            "modified": "2025-02-01T12:22:20.883Z"
         }
     ],
+    "id": "2af324bd-05f7-4501-b6f6-187683ffcf7f.json",
+    "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2796.478759765625,1043.6619873046875 2944.3662109375,2104.225341796875 1484.8488914346924,2307.7438731587536 1336.9614402628174,1247.180518666566\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -24,16 +44,7 @@ order: 4
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2796.478759765625,1043.6619873046875 2944.3662109375,2104.225341796875 1484.8488914346924,2307.7438731587536 1336.9614402628174,1247.180518666566\"></polygon></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2af324bd-05f7-4501-b6f6-187683ffcf7f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

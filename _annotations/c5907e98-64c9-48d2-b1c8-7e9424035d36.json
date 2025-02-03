@@ -3,20 +3,37 @@ canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascusza
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "StampZone:curatorial",
-            "purpose": "tagging",
+            "created": "2025-01-31T10:52:03.505Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-01-31T10:52:03.505Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "StampZone:curatorial"
+        },
+        {
+            "type": "TextualBody",
+            "value": "BIBLIOTH\u00c8QUE NATIONALE ZAHIRYEH DAMAS SYRIE\n\u062f\u0627\u0631 \u0627\u0644\u0643\u062a\u0628 \u0627\u0644\u0638\u0627\u0647\u0631\u064a\u0629\n\u0627\u0644\u0627\u0647\u0644\u064a\u0629 \u0628\u062f\u0645\u0634\u0642",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-03T16:03:28.187Z",
+            "modified": "2025-02-03T16:12:29.615Z"
         }
     ],
+    "id": "c5907e98-64c9-48d2-b1c8-7e9424035d36.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1632.2796008058801\" cy=\"973.9436645507812\" r=\"251.52325563943236\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -24,13 +41,7 @@ order: 2
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"1632.2796008058801\" cy=\"973.9436645507812\" r=\"251.52325563943236\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c5907e98-64c9-48d2-b1c8-7e9424035d36.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

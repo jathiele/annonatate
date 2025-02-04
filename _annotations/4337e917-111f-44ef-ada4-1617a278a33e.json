@@ -6,14 +6,25 @@ order: 3
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "MarginTextZone",
+            "created": "2025-02-01T12:20:23.029Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-02-01T12:20:23.029Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "MarginTextZone"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647\n<lb/>\n\n<lb/>\n\n<lb/>\n\n<lb/>\n\n<lb/>\n\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646\n<lb/>\n\u0627\u0645\u064a\u0646",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-04T11:01:06.223Z",
+            "modified": "2025-02-04T11:03:52.195Z"
         }
     ],
     "id": "4337e917-111f-44ef-ada4-1617a278a33e.json",

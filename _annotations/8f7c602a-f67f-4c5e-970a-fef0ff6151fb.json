@@ -14,11 +14,27 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "NumberingZone:item"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0627\u0644\u0645\u0634\u062a\u0631\u0649\n<lb/>\u0648\u0642\u0641 \u0667\u0660\u0669\u0660 \u062e\u0637",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-04T17:23:01.578Z",
+            "modified": "2025-02-04T17:23:57.526Z"
         }
     ],
     "id": "8f7c602a-f67f-4c5e-970a-fef0ff6151fb.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=651.08837890625,1603.8883056640625,434.1229248046875,238.365234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -26,11 +42,6 @@ order: 5
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=651.08837890625,1603.8883056640625,434.1229248046875,238.365234375"
         }
     },
     "type": "Annotation"

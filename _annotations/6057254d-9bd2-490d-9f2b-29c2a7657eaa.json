@@ -30,13 +30,6 @@ order: 8
     "id": "6057254d-9bd2-490d-9f2b-29c2a7657eaa.json",
     "motivation": "commenting",
     "target": {
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"603.5211181640625,1347.8873291015625 924.6478881835938,1821.1268310546875 473.520471319809,2127.2489735360887 152.39370130027777,1654.0094715829634\" /></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -44,6 +37,13 @@ order: 8
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"519.884765625,1180.6146240234375 941.9736328125,1828.8692626953125 485.099818025935,2126.347042917573 63.01095083843501,1478.092404245698\"></polygon></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"

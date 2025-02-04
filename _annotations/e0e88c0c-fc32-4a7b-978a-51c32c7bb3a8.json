@@ -3,20 +3,40 @@ canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascusza
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "MarginTextZone",
-            "purpose": "tagging",
+            "created": "2025-01-31T10:57:36.777Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-01-31T10:57:36.777Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "MarginTextZone"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647 \u0648\u062d\u062f\u0647\n<lb/>\n\u0646\u0638\u0631 \u0641\u064a\u0647 \u0648\u0627\u0642\u062a\u0637\u0641 \u0645\u0646 \u0628\u0639\u0636 \u0645\u0639\u0627\u0646\u064a\u0647\n<lb/>\n\u0627\u0644\u0639\u0628\u062f \u0627\u0644\u0641\u0642\u064a\u0631 \u0627\u0644\u0631\u0627\u062c\u064a \u0639\u0641\u0648\n<lb/>\n\u0631\u0628\u0647 \n<del rend=\"erasure\" hand=\"unknown\">\n <gap reason=\"illegible\" quantity=\"2\" unit=\"word\"/>\n</del>\n<lb/>\n<del rend=\"erasure\" hand=\"unknown\">\n <gap reason=\"illegible\" quantity=\"4\" unit=\"line\"/>\n</del>",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-04T16:38:10.550Z",
+            "modified": "2025-02-04T16:44:07.743Z"
         }
     ],
+    "id": "e0e88c0c-fc32-4a7b-978a-51c32c7bb3a8.json",
+    "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"134.50701904296875,963.3803100585938 599.2957763671875,600 1121.5523844278105,1268.002621896926 656.7636271035918,1631.3829319555198\" /></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -24,16 +44,7 @@ order: 6
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"134.50701904296875,963.3803100585938 599.2957763671875,600 1121.5523844278105,1268.002621896926 656.7636271035918,1631.3829319555198\" /></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e0e88c0c-fc32-4a7b-978a-51c32c7bb3a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

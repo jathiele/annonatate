@@ -16,15 +16,15 @@ order: 8
             "value": "MarginTextZone"
         },
         {
-            "type": "TextualBody",
-            "value": "\u062f\u062e\u0644 \u0641\u064a ... \u0627\u0644\u0644\u0647 \u062a\u0639\u0627\u0644\u0649\n<lb/>\n\u0649\u062d\u0641<gap reason=\"damage\" quantity=\"3\" unit=\"line\"/>\n<lb/>\n\u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646\n<lb/>\n\u0627\u062c\u0645\u0639\u064a\u0646\n<lb/>\n<gap reason=\"damage\" quantity=\"1\" unit=\"line\"/>",
-            "purpose": "supplementing",
+            "created": "2025-02-04T16:59:21.028Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-02-04T16:59:21.028Z",
-            "modified": "2025-02-04T17:05:45.566Z"
+            "modified": "2025-02-04T18:18:53.729Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "\u062f\u062e\u0644 \u0641\u064a <gap reason=\"damage\" quantity=\"3\" unit=\"word\"/> \u0627\u0644\u0644\u0647 \u0627\u0644\u064a\u0647 \u062a\u0639\u0627\u0644\u0649\n<lb/>\n\u0649\u062d\u0641<gap reason=\"damage\" quantity=\"3\" unit=\"line\"/>\n<lb/>\n\u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646\n<lb/>\n\u0627\u062c\u0645\u0639\u064a\u0646\n<lb/>\n<gap reason=\"damage\" quantity=\"1\" unit=\"line\"/>"
         }
     ],
     "id": "6057254d-9bd2-490d-9f2b-29c2a7657eaa.json",

@@ -4,20 +4,37 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "NumberingZone:folio",
-            "purpose": "tagging",
+            "created": "2025-02-04T16:35:43.127Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-02-04T16:35:43.127Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "NumberingZone:folio"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u0662",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-04T16:36:03.122Z",
+            "modified": "2025-02-04T16:36:08.474Z"
         }
     ],
+    "id": "33b28105-4aab-4369-8d4e-12e951039dd3.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1236.9207763671875,107.8714828491211,87.802490234375,103.0724868774414"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -25,13 +42,7 @@ order: 11
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1236.9207763671875,107.8714828491211,87.802490234375,103.0724868774414"
         }
     },
-    "id": "33b28105-4aab-4369-8d4e-12e951039dd3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

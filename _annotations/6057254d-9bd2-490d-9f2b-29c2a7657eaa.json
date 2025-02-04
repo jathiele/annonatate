@@ -3,20 +3,40 @@ canvas: "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascusza
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "MarginTextZone",
-            "purpose": "tagging",
+            "created": "2025-01-31T10:59:58.481Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-01-31T10:59:58.481Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "MarginTextZone"
+        },
+        {
+            "type": "TextualBody",
+            "value": "\u062f\u062e\u0644 \u0641\u064a ... \u0627\u0644\u0644\u0647 \u062a\u0639\u0627\u0644\u0649\n<lb/>\n\u0649\u062d\u0641<gap reason=\"damage\" quantity=\"3\" unit=\"line\"/>\n<lb/>\n\u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646\n<lb/>\n\u0627\u062c\u0645\u0639\u064a\u0646\n<lb/>\n<gap reason=\"damage\" quantity=\"1\" unit=\"line\"/>",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "jathiele",
+                "name": "jathiele"
+            },
+            "created": "2025-02-04T16:59:21.028Z",
+            "modified": "2025-02-04T17:05:45.566Z"
         }
     ],
+    "id": "6057254d-9bd2-490d-9f2b-29c2a7657eaa.json",
+    "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"603.5211181640625,1347.8873291015625 924.6478881835938,1821.1268310546875 473.520471319809,2127.2489735360887 152.39370130027777,1654.0094715829634\" /></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -24,16 +44,7 @@ order: 8
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"603.5211181640625,1347.8873291015625 924.6478881835938,1821.1268310546875 473.520471319809,2127.2489735360887 152.39370130027777,1654.0094715829634\" /></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6057254d-9bd2-490d-9f2b-29c2a7657eaa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

@@ -6,24 +6,19 @@ order: 5
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "NumberingZone:item",
-            "purpose": "tagging",
+            "created": "2025-02-04T16:50:56.575Z",
             "creator": {
                 "id": "jathiele",
                 "name": "jathiele"
             },
-            "created": "2025-02-04T16:50:56.575Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "NumberingZone:item"
         }
     ],
     "id": "8f7c602a-f67f-4c5e-970a-fef0ff6151fb.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=717.6055908203125,1618.309814453125,367.605712890625,223.9437255859375"
-        },
         "source": {
             "partOf": {
                 "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
@@ -31,6 +26,11 @@ order: 5
             },
             "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=651.08837890625,1603.8883056640625,434.1229248046875,238.365234375"
         }
     },
     "type": "Annotation"

@@ -1,7 +1,7 @@
 ---
 added: 2025-02-05 08&#58;50&#58;48.120573
 thumbnail: https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol124b125a-0/full/146,/0/default.jpg
-title: El Escorial Ms. ar. 1435, fols 124b-125b
+title: Copyist's colophon and ownership statement in El Escorial Ms. ar. 1435
 user: jathiele
 ---
 {
@@ -10,12 +10,12 @@ user: jathiele
   "type": "Manifest",
   "label": {
     "ar": [
-      "El Escorial Ms. ar. 1435, fols 124b-125b"
+      "Copyist's colophon and ownership statement in El Escorial Ms. ar. 1435"
     ]
   },
   "summary": {
     "en": [
-      "Resource&#58;"
+      "The codex contains a copy of Iʿjāz al-Qurʾān, commonly attributed to Abū Bakr al-Bāqillānī (d. 1013). The text's first pages, including the original title page are missing. Fol. 125a contains a colphon of the scribe's colphon with the date of the copy's completion Dhū l-Ḥijja 423 (1032 CE) and attribution to the text to "al-qāḍī al-muʾallif who died in 404 AH. Fol. 125b contains a later note, identifying the text as al-Iʿjāz fī l-Qurʾān by al-Bāqillānī, along with  the ex libris of the library of Mūlāy Zaydān (d. 1627)."
     ]
   },
   "behavior": [

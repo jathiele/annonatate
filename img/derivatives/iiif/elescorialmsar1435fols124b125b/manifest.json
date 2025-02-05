@@ -6,7 +6,7 @@ user: jathiele
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/elescorialmsar1435fols124b125b/manifest.json",
   "type": "Manifest",
   "label": {
     "ar": [

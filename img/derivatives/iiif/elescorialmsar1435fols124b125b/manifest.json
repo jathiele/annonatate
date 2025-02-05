@@ -1,0 +1,117 @@
+---
+added: 2025-02-05 08&#58;50&#58;48.120573
+thumbnail: https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol124b125a-0/full/146,/0/default.jpg
+title: El Escorial Ms. ar. 1435, fols 124b-125b
+user: jathiele
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "El Escorial Ms. ar. 1435, fols 124b-125b"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Resource&#58;"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/canvas/elescorialmsar1435fols124b125b-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "fol-124b-125a"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol124b125a-0/full/146,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1654,
+      "width": 2339,
+      "items": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol124b125a-0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1654,
+                "width": 2339,
+                "service": [
+                  {
+                    "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol124b125a-0",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/canvas/elescorialmsar1435fols124b125b-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/canvas/elescorialmsar1435fols124b125b-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "fol-125b-126a"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol125b126a-0/full/146,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1654,
+      "width": 2339,
+      "items": [
+        {
+          "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol125b126a-0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1654,
+                "width": 2339,
+                "service": [
+                  {
+                    "id": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/fol125b126a-0",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://jathiele.github.io/annonatate/img/derivatives/iiif/elescorialmsar1435fols124b125b/canvas/elescorialmsar1435fols124b125b-2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

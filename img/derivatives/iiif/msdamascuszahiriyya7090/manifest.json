@@ -6,26 +6,38 @@ layout: none
   "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/manifest.json",
   "type": "Manifest",
   "label": {
-    "ar": [
+    "en": [
       "Title Page MS Damascus Zahiriyya 7090"
     ]
   },
   "metadata": [
     {
       "label": {
-        "ar": [
+        "en": [
+          "Shelfmark"
+        ]
+      },
+      "value": {
+        "en": [
+          "Damascus Ẓāhiriyya library MS 7090, fol. 2a" 
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
           "rights"
         ]
       },
       "value": {
-        "ar": [
+        "en": [
           "https&#58;//creativecommons.org/licenses/by-nc-sa/4.0/"
         ]
       }
     }
   ],
   "summary": {
-    "ar": [
+    "en": [
       "Paratexts in the copy of Iʿjāz al-Qurʾān preserved in MS Damscus, Ẓāhiriyya library, no. 7090, fol. 2a"
     ]
   },
@@ -38,7 +50,7 @@ layout: none
       "id": "{{ '/' | absolute_url }}img/derivatives/iiif/msdamascuszahiriyya7090/canvas/msdamascuszahiriyya7090-1",
       "type": "Canvas",
       "label": {
-        "ar": [
+        "en": [
           "fols-1b-2a"
         ]
       },
